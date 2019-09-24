@@ -1,7 +1,6 @@
 from textfsm import TextFSM
 from netmiko import ConnectHandler
 from inquirer import prompt, Text, Password
-from pprint import pprint
 from networkx import draw, Graph
 from matplotlib.pyplot import show
 
