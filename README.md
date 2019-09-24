@@ -1,5 +1,7 @@
 # Topology-Generator
-
+<p align="center">
+    <img src="https://raw.githubusercontent.com/hasri20/Topology-Generator/master/img/screenshot.png">
+</p>
 Topology generator for cisco ios based device
 
 ### Requirements
@@ -24,6 +26,4 @@ cd Topology-Generator
 python3 app.py
 ```
 
-<p align="center">
-    <img src="https://asciinema.org/a/z1CkueACvqDLRtSGpJZiFdiKz">
-</p>
+![how to use](https://asciinema.org/a/z1CkueACvqDLRtSGpJZiFdiKz)
