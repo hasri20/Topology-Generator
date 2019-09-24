@@ -1,0 +1,6 @@
+Value hostname (\S+)
+Value domain_name (\S+)
+
+Start
+  ^hostname.${hostname}
+  ^ip.domain.name.${domain_name} -> Record
