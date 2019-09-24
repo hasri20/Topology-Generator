@@ -14,7 +14,9 @@ Topology generator for cisco ios based device
 
 
 Prepare your devices ip management in a single file, using this format 
-![alt text](https://github.com/hasri20/Topology-Generator/blob/master/img/ip%20txt.png)
+<p align="center">
+    <img src="https://github.com/hasri20/Topology-Generator/blob/master/img/ip%20txt.png">
+</p>
 
 ```
 git clone https://github.com/hasri20/Topology-Generator.git
