@@ -26,4 +26,4 @@ cd Topology-Generator
 python3 app.py
 ```
 
-![how to use](https://asciinema.org/a/z1CkueACvqDLRtSGpJZiFdiKz)
+[![how to](https://asciinema.org/a/z1CkueACvqDLRtSGpJZiFdiKz)](https://asciinema.org/a/z1CkueACvqDLRtSGpJZiFdiKz)
