@@ -25,5 +25,4 @@ git clone https://github.com/hasri20/Topology-Generator.git
 cd Topology-Generator
 python3 app.py
 ```
-
-[![how to](https://asciinema.org/a/z1CkueACvqDLRtSGpJZiFdiKz)](https://asciinema.org/a/z1CkueACvqDLRtSGpJZiFdiKz)
+<a href="https://asciinema.org/a/z1CkueACvqDLRtSGpJZiFdiKz"><img src="https://asciinema.org/a/z1CkueACvqDLRtSGpJZiFdiKz" width="836"/></a>
