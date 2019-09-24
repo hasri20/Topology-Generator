@@ -7,8 +7,6 @@ from matplotlib.pyplot import show
 while True:
     questions = [
         Text(name='ip_file', message="Input your ip file list"),
-        Text(name='username', message="Input your username"),
-        Password(name='password', message="Input your password"),
     ]
 
     answers = prompt(questions)
@@ -20,6 +18,13 @@ while True:
     else:
         break
 
+account = [
+    Text(name='username', message="Input your username"),
+    Password(name='password', message="Input your password")
+]
+
+credential = prompt(account)
+
 list_ip = [line.strip() for line in ip_file]
 
 graph = Graph()
@@ -30,8 +35,8 @@ for ip in list_ip:
     cisco_vios = {
         'device_type': 'cisco_ios',
         'ip': ip,
-        'username': answers['username'],
-        'password': answers['password'],
+        'username': credential['username'],
+        'password': credential['password'],
     }
 
     net_connect = ConnectHandler(**cisco_vios)

@@ -6,7 +6,7 @@ Topology generator for cisco ios based device
 
 - Netmiko
 - TextFSM
-- inquirer 
+- Inquirer 
 - NetworkX
 - Matplotlib
 
@@ -15,13 +15,15 @@ Topology generator for cisco ios based device
 
 Prepare your devices ip management in a single file, using this format 
 <p align="center">
-    <img src="https://github.com/hasri20/Topology-Generator/blob/master/img/ip.png">
+    <img src="https://raw.githubusercontent.com/hasri20/Topology-Generator/master/img/ip.png">
 </p>
 
 ```
 git clone https://github.com/hasri20/Topology-Generator.git
 cd Topology-Generator
-pip3 install -r requirements.txt
 python3 app.py
-
 ```
+
+<p align="center">
+    <img src="https://asciinema.org/a/z1CkueACvqDLRtSGpJZiFdiKz">
+</p>
