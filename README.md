@@ -4,7 +4,7 @@
 </p>
 Topology generator for cisco ios based device
 
-### Requirements
+## Requirements
 
 - Netmiko
 - TextFSM
@@ -12,7 +12,7 @@ Topology generator for cisco ios based device
 - NetworkX
 - Matplotlib
 
-### How to Use
+## How to Use
 
 
 Prepare your devices ip management in a single file, using this format 
